@@ -1,28 +1,5 @@
-# AirBnB_clone
+# Bytehon
 
-Authors are : John Mcdove and Asheka Baker
+DESCRIPTION
 
-What this repository does include:
-Models class system built in Python.
-
-Source code
-Documentation
-Python console to manage back-end models
-
-Source code
-Documentation
-Flask web application server rendering HTML templates with Jinja2
-
-Source code
-Documentation
-RESTful Flask API
-
-Source code
-Documentation
-Swagger documentation - bdbnb.site/apidocs
-Automatic deployment scripts.
-
-fabfile.py
-setup_server.pp
-Documentation
-
+This repository hosts the source code for the Bytehon Tutorial. This is an interactive web application that loads from inside a web browser that teaches the basics of learning to code in the Python programming language.
