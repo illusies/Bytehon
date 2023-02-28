@@ -1,0 +1,67 @@
+User
+-user_id=varchar(PK)
+-student_id=varchar(PK FK)
+-tutor_id-varchar(PK FK)
+-
+username=varchar
+password=varchar
+
+Student
+-student_id=varchar (PK)
+-
+first_name=varchar
+middle_name=varchar
+last_name=varchar
+birth_date=date
+gender=varchar
+telephone=varchar
+location=integer
+email=varchar
+language=varchar
+
+Score
+-score_id=varchar (PK)
+-student_id=varchar (PK FK)
+-course_id=varchar (PK FK)
+-
+first_name=varchar
+middle_name=varchar
+last_name=varchar
+level=integer
+score=integer
+
+Transaction
+trans_id=varchar (PK)
+student_id=varchar (PK FK)
+-
+trans_name=varchar
+trans_date=date
+
+Schedule
+schedule_id=varchar (PK)
+student_id=varchar (PK FK)
+tutor_id=varchar (PK FK)
+course_id=varchar (PK FK)
+-
+schedule_day=date
+time_start=time
+time_end=time
+
+Course
+-course_id=varchar (PK)
+-
+course_name=varchar
+course_detail=varchar
+
+Tutor
+-tutor_id=varchar (PK)
+-
+first_name=varchar
+middle_name=varchar
+last_name=varchar
+birth_date=date
+gender=varchar
+telephone=varchar
+location=integer
+email=varchar
+language=varchar

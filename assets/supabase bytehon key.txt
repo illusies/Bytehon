@@ -1,0 +1,120 @@
+Supabase database password
+6R28fFWvUPYLD2dj
+
+
+Connection Info
+Host - db.ompcwlvzatktkpranwlc.supabase.co
+Database name - postgres
+Port - 5432
+User - postgres
+Password - 6R28fFWvUPYLD2dj
+
+
+Supabase connection string
+user=postgres password=[YOUR-PASSWORD] host=db.ompcwlvzatktkpranwlc.supabase.co port=5432 database=postgres
+
+
+API Settings
+URL - https://ompcwlvzatktkpranwlc.supabase.co
+Project API keys
+anon public - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tcGN3bHZ6YXRrdGtwcmFud2xjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzc1Mzk2MDgsImV4cCI6MTk5MzExNTYwOH0.7TWrwIQhQTdM23V8R5VtqSZ-GToaLEOvtj4zrUne7To
+service_role secret - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9tcGN3bHZ6YXRrdGtwcmFud2xjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTY3NzUzOTYwOCwiZXhwIjoxOTkzMTE1NjA4fQ.YCqU-wwF85AxKEPe9TCgEAnGqqhcooNVjoPvgkDxnL4
+
+
+JWT Secrete - /ArD5b9J6+FsPWub7eAW52n9x5HPPDjUoowPqsiABOqiiDg5//ndYcxaEgOnROtbOtVGtGe6YVbQOm+zeJFr9w==
+
+
+---INTRODUCTION---
+INSTALL
+npm install --save @supabase/supabase-js
+
+INITIALIZING
+
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'https://ompcwlvzatktkpranwlc.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+
+---AUTHENTICATION---
+Client API keys
+const SUPABASE_KEY = 'SUPABASE_CLIENT_API_KEY'
+
+Example Usage
+
+const SUPABASE_URL = "https://ompcwlvzatktkpranwlc.supabase.co"
+
+const supabase = createClient(SUPABASE_URL, process.env.SUPABASE_KEY);
+
+Service keys
+const SERVICE_KEY = 'SUPABASE_SERVICE_KEY'
+
+Example usage
+
+const SUPABASE_URL = "https://ompcwlvzatktkpranwlc.supabase.co"
+
+const supabase = createClient(SUPABASE_URL, process.env.SERVICE_KEY);
+
+
+
+---USER MANAGEMENT---
+USER SIGNUP
+
+let { data, error } = await supabase.auth.signUp({
+  email: 'someone@email.com',
+  password: 'IqTffcdbUsKcCeUgaHZZ'
+})
+
+USER LOGIN - (Login with email/password)
+let { data, error } = await supabase.auth.signInWithPassword({
+  email: 'someone@email.com',
+  password: 'IqTffcdbUsKcCeUgaHZZ'
+})
+
+USER LOGIN - (Login with magic link via email)
+let { data, error } = await supabase.auth.signInWithOtp({
+  email: 'someone@email.com'
+})
+
+PHONE SIGNUP - (Signup with phone/password)
+let { data, error } = await supabase.auth.signUp({
+  phone: '+13334445555',
+  password: 'some-password'
+})
+
+PHONE LOGIN - (Login via SMS OTP)
+let { data, error } = await supabase.auth.signInWithOtp({
+  phone: '+13334445555'
+})
+
+VERIFY PIN - (Verify an SMS OTP)
+let { data, error } = await supabase.auth.verifyOtp({
+  phone: '+13334445555',
+  token: '123456',
+  type: 'sms'
+})
+
+THIRD PARTY LOGIN - (Log in with third party oauth)
+let { data, error } = await supabase.auth.signInWithOAuth({
+  provider: 'github'
+})
+
+GET USER - (User)
+const { data: { user } } = await supabase.auth.getUser()
+
+PASSWORD RECOVERY - (Forgotten password email)
+let { data, error } = await supabase.auth.resetPasswordForEmail(email)
+
+UPDATE USER - (update user)
+const { data, error } = await supabase.auth.updateUser({
+  email: "new@email.com",
+  password: "new-password",
+  data: { hello: 'world' }
+})
+
+USER LOGOUT - (log out)
+let { error } = await supabase.auth.signOut()
+
+INVITE USER - (send a user an invite over email)
+let { data, error } = await supabase.auth.api.inviteUserByEmail('someone@email.com')
