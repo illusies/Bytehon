@@ -604,6 +604,10 @@ progress {
   content: "— ";
 }
 
+img:hover {
+  transform: scale(1.3);
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -3945,6 +3949,10 @@ textarea.form-control-lg {
   list-style: none;
 }
 
+.nav-link-footer {
+  color: #DAA520;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -3952,13 +3960,13 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+.nav-link:hover, .nav-link:focus {
+  color: #2c3e50;
+}
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
   }
-}
-.nav-link:hover, .nav-link:focus {
-  color: #2c3e50;
 }
 .nav-link.disabled {
   color: #6c757d;
