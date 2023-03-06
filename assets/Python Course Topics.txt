@@ -1,0 +1,102 @@
+Python for Beginners
+- Basic Concepts
+	what is python
+	my first program
+	quiz
+- Data types and Variables
+	what are data types and variables
+	numbers
+	booleans
+	strings
+	operators
+	quiz
+	exercise
+	solution review
+- Control Flow
+	the if statement
+	the if-else statement
+	the if-elif-else statement
+	the case statement
+	quiz
+	exercise
+- Functions
+	what are functions
+	function scope
+	built-in functions
+	type conversion
+	lambdas
+	recursion
+- Loops
+	what are loops
+	the for loop
+	nested for loops
+	the break and continue keyword
+	the while loop
+
+Intermediate Python
+- Working with Strings
+	introduction to strings
+	string methods
+- Lists
+	introduction to lists
+	traversing a list
+	list operations
+	list slices
+	list methods
+	map, filter and reduce
+	deleting elements
+	lists and strings
+- Dictionaries
+	introduction to dictionaries
+	dictionary operations
+	looping and dictionaries
+	reverse lookup
+	dictionaries and lists
+	global variables
+- Tuples
+	introduction to tuples
+	tuples operations
+	lists and tuples
+	dictionaries and tuples
+- Python Comprehensions
+	what are comprehensions
+	list comprehensions
+	set comprehensions
+	dictionary comprehensions
+
+Advanced Python
+- Working with Files
+	writing to a file
+	reading from a file
+	filenames and paths
+	catching exceptions
+	databases
+	pipes
+- Classes and Objects
+	attributes
+	objects are mutable
+	copying objects
+	debugging
+- Classes and Functions
+	time
+	pure functions
+	modifiers
+	prototyping versus planning
+- Classes and Methods
+	the init method
+	the __str__ method
+	operator overloading
+	polymorphism
+	interface and implementation
+	Exceptions
+- Inheritance
+	class attributes
+	data encapsulation
+
+
+Python for Data Science
+- Introduction
+- Math Operations with NumPy
+- Data Manipulation with Pandas
+- Visualization with Matplotlib
+
