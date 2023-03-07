@@ -622,6 +622,13 @@ progress {
   height: auto;
 }
 
+.img-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .figure {
   display: inline-block;
 }
