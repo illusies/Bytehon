@@ -74,7 +74,9 @@
     <section class="page-section catalog" id="catalog">
       <div class="container">
         <!-- Catalog Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Catalog</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">
+          <a href="catalog.html" class="letter_grow">Catalog</a>
+        </h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
           <div class="divider-custom-line"></div>
@@ -88,52 +90,67 @@
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#portfolioModal1"
-            >
+              data-bs-target="#portfolioModal1">
               <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class="portfolio-item-caption-content text-center text-white">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/beginner.png" alt="..." />
+              <h2 class="portfolio-modal-title text-center text-secondary text-uppercase mb-0">Basic</h2><br>
+              <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
+              <ul>
+                <li>Basic Concepts</li>
+                <li>Data types and variables</li>
+                <li>Control flow</li>
+                <li>Functions</li>
+                <li>Loops</li>
+              </ul>
             </div>
           </div>
+
           <!-- Catalog Item 2-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#portfolioModal2"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
+              data-bs-target="#portfolioModal2">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/intermediate.png" alt="..." />
+              <h2 class="portfolio-modal-title text-center text-secondary text-uppercase mb-0">Intermediate</h2><br>
+              <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
+              <ul>
+                <li>Working with strings</li>
+                <li>Lists</li>
+                <li>Dictionaries</li>
+                <li>Tuples</li>
+                <li>Python Comprehensions</li>
+              </ul>
             </div>
           </div>
+
           <!-- Catalog Item 3-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
-              data-bs-target="#portfolioModal3"
-            >
-              <div
-                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
-              >
-                <div
-                  class="portfolio-item-caption-content text-center text-white"
-                >
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
+              data-bs-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-plus fa-3x"></i>
               </div>
-              <img class="img-fluid" src="assets/img/advanced.png" alt="..." />
+            </div>
+              <h2 class="portfolio-modal-title text-center text-secondary text-uppercase mb-0">Advanced</h2><br>
+              <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
+              <ul>
+                <li>Working with files</li>
+                <li>Classes and objects</li>
+                <li>Classes and functions</li>
+                <li>Classes and Methods</li>
+                <li>Inheritance</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -184,154 +201,7 @@
       </div>
     </div>
 
-    <!-- Catalog Modals-->
-    <!-- Catalog Modal 1-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal1"
-      tabindex="-1"
-      aria-labelledby="portfolioModal1"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Catalog Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Basic
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Catalog Modal - Text-->
-                  <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Catalog Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal2"
-      tabindex="-1"
-      aria-labelledby="portfolioModal2"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Catalog Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Intermediate
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Catalog Modal - Text-->
-                  <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Catalog Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      aria-labelledby="portfolioModal3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Catalog Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Advanced
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Catalog Modal - Text-->
-                  <p class="mb-4">The following topics will be covered. For the best experience it is recommended that you follow the sequence of topics as presented as each new concept builds on previous topics presented.</p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
