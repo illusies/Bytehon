@@ -5,10 +5,13 @@ DESCRIPTION
 This repository hosts the source code for the Bytehon Tutorial. This is an interactive web application that loads from inside a web browser that teaches the basics of learning to code in the Python programming language.
 
 
+
 ++++++++++++++++  Project Name  ++++++++++++++++
 
 BYTEHON
+
 <img src="/assets/img/bytehon-landingpage-snippet.png">
+
 
 
 ++++++++++++++++  Introduction ++++++++++++++++
@@ -26,6 +29,7 @@ John McDove (illusies@github.com): Coder/Debugger/Editor
 Our portfolio web application can be found at: https://bytehon.netlify.app/
 
 
+
 ++++++++++++++++  Installation  ++++++++++++++++
 
 This project was built using the following technologies:
@@ -41,6 +45,7 @@ This project was built using the following technologies:
 No installation is required to run this project. Simply visit the link below to get started: https://bytehon.netlify.app/
 
 In the near future we will be releasing the mobile application.
+
 
 
 +++++++++++++  Licensing  +++++++++++++
